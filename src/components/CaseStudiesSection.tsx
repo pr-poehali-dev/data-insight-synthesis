@@ -3,31 +3,31 @@ import { motion } from "framer-motion"
 export function CaseStudiesSection() {
   const caseStudies = [
     {
-      client: "Stellar Analytics",
-      project: "Редизайн лендинга SaaS",
-      metric: "Рост конверсий на 127%",
-      description: "Полный редизайн главного лендинга продукта с A/B-тестированием и оптимизацией конверсий.",
+      client: "Макраме и панно",
+      project: "Настенное панно в стиле бохо",
+      metric: "Шнур 3 мм, цвет «Молоко»",
+      description: "Мягкий атласный шнур идеально подходит для создания крупных настенных панно — легко завязывается в узлы и держит форму.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Nova Industries",
-      project: "White-label платформа",
-      metric: "Онбординг в 3 раза быстрее",
-      description: "Создали масштабируемое white-label решение для обслуживания 50+ клиентов одновременно.",
+      client: "Украшения и браслеты",
+      project: "Браслеты с шармами",
+      metric: "Шнур 1 мм, 20+ цветов",
+      description: "Тонкий атласный шнур с шелковистой поверхностью — идеален для плетения браслетов, колье и украшений ручной работы.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Quantum Dynamics",
-      project: "Оптимизация e-commerce",
-      metric: "Рост выручки на 85%",
-      description: "Оптимизировали checkout и внедрили конверсионные паттерны дизайна по всей платформе.",
+      client: "Интерьерный декор",
+      project: "Корзины и подвесные кашпо",
+      metric: "Шнур 5 мм, плотное плетение",
+      description: "Толстый шнур для плетения объёмных изделий — корзин, кашпо, органайзеров. Прочный и эластичный.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Alpine Ventures",
-      project: "Перезапуск сайта агентства",
-      metric: "200+ лидов в месяц",
-      description: "Стратегический редизайн для лидогенерации с интеграцией CRM и автоматизацией.",
+      client: "Игрушки и куклы",
+      project: "Вязаные куклы-тильды",
+      metric: "Шнур 2 мм, яркие цвета",
+      description: "Яркий и безопасный атласный шнур для создания игрушек, кукольных волос и аксессуаров — гипоаллергенный материал.",
       image: "/placeholder.svg?height=400&width=600",
     },
   ]
@@ -43,7 +43,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Кейсы
+            Что можно сплести
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Реальные результаты агентств, с которыми мы работали для роста и конверсий.
+            Примеры изделий, которые мастера создают с нашими атласными шнурами.
           </motion.p>
         </div>
 

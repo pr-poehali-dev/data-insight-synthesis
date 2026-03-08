@@ -33,7 +33,7 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="font-serif text-4xl md:text-5xl font-bold mb-6"
             >
-              Готовы масштабировать агентство?
+              Готовы начать плетение?
             </motion.h2>
 
             <motion.p
@@ -43,7 +43,7 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed"
             >
-              Станьте партнером Prism и создавайте конверсионные сайты, которые приносят реальные результаты вашим клиентам. Давайте расти вместе.
+              Выберите атласные шнуры из нашего каталога и воплотите свои творческие идеи. Быстрая доставка по всей России.
             </motion.p>
 
             <motion.div
@@ -54,10 +54,10 @@ export function CTASection() {
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
               <Button size="lg" className="rounded-full" leadingIcon={ArrowRight}>
-                Записаться на звонок
+                Выбрать шнуры
               </Button>
               <Button size="lg" variant="outline" className="rounded-full bg-transparent">
-                Смотреть работы
+                Написать нам
               </Button>
             </motion.div>
 
@@ -68,7 +68,7 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="text-sm text-muted-foreground mt-6"
             >
-              Без обязательств - Бесплатная консультация - Ответ в течение 24 часов
+              Доставка от 1 дня · Оптовые скидки · Возврат в течение 14 дней
             </motion.p>
           </div>
         </motion.div>

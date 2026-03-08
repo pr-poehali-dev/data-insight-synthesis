@@ -8,13 +8,12 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">P</span>
+                <span className="text-white font-bold text-lg">А</span>
               </div>
-              <span className="font-serif text-xl font-bold">Prism</span>
+              <span className="font-serif text-xl font-bold">АтласШнур</span>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Конверсионные сайты для агентств, которые растут. Превращаем каждый визит в рост вместе с партнером,
-              который инвестирует в ваш успех.
+              Атласные шнуры для плетения любых изделий — макраме, украшений, декора и игрушек. Доставляем по всей России.
             </p>
           </div>
 
@@ -23,12 +22,12 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                  Каталог
                 </a>
               </li>
               <li>
                 <a href="#process" className="text-muted-foreground hover:text-primary transition-colors">
-                  Процесс
+                  Как заказать
                 </a>
               </li>
               <li>
@@ -71,7 +70,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            {new Date().getFullYear()} Prism Creative. Все права защищены.
+            {new Date().getFullYear()} АтласШнур. Все права защищены.
           </p>
 
           <div className="flex items-center gap-4">
